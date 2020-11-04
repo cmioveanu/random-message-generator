@@ -6,11 +6,11 @@
 */
 
 const stoicism = {
-    names: ["Cristian", "James", "John", "Mary", "Nina"],
-    verbs: ["should be", "can endure", "must live"],
-    objects: ["rock", "mountain", "tree"],      // prepend "like the" later on
-    events: ["snow", "rain", "storm", "wind", "fate"],    // prepend "that the" later on
-    actions: ["rolls", "washes", "flies", "rages"],    // append "over" later on
+    names: ["Cristian", "James", "John", "Mary", "Nina", "Laura", "Matthew", "Andrew", "Michelle", "Nicholas"],
+    verbs: ["should be", "can endure", "must live", "stands", "can handle life", "can face problems"],
+    objects: ["rock", "mountain", "tree", "cliff", "colossus", "giant", "juggernaut", "goliath"],      // prepend "like the" later on
+    events: ["snow", "rain", "storm", "wind", "fate", "lightning", "wave", "pain"],    // prepend "that the" later on
+    actions: ["rolls", "washes", "flies", "rages", "leaps", "surges"],    // append "over" later on
 
     combineMessage() {
         const numberSelector = number => Math.floor(Math.random() * number);

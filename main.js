@@ -11,4 +11,15 @@ const stoicism = {
     objects: ["rock", "mountain", "tree"],      // prepend "like the" later on
     events: ["snow", "rain", "storm", "wind", "fate"],    // prepend "that the" later on
     actions: ["rolls", "washes", "flies", "rages"],    // append "over" later on
+
+    combineMessage() {
+        const numberSelector = number => Math.floor(Math.random() * number);
+
+        console.log(this.names[numberSelector(this.names.length)] + " " + this.verbs[numberSelector(this.verbs.length)]
+                    + " like the " + this.objects[numberSelector(this.objects.length)] + " that the "
+                    + this.events[numberSelector(this.events.length)] + " " + this.actions[numberSelector(this.actions.length)] + " over.");
+    }
 };
+
+stoicism.combineMessage();
+

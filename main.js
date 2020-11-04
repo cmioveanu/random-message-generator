@@ -9,5 +9,6 @@ const stoicism = {
     names: ["Cristian", "James", "John", "Mary", "Nina"],
     verbs: ["should be", "can endure", "must live"],
     objects: ["rock", "mountain", "tree"],      // prepend "like the" later on
-    events: ["snow", "rain", "storm", "wind"],    // prepend "that the" later on
+    events: ["snow", "rain", "storm", "wind", "fate"],    // prepend "that the" later on
+    actions: ["rolls", "washes", "flies", "rages"],    // append "over" later on
 };

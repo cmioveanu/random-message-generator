@@ -13,7 +13,7 @@ const stoicism = {
     actions: ["rolls", "washes", "flies", "rages", "leaps", "surges"],    // append "over" later on
 
     combineMessage() {
-        const numberSelector = number => Math.floor(Math.random() * number);
+        const numberSelector = number => Math.floor(Math.random() * number);    //takes an array.length and returns a random number based on that length
 
         console.log(this.names[numberSelector(this.names.length)] + " " + this.verbs[numberSelector(this.verbs.length)]
                     + " like the " + this.objects[numberSelector(this.objects.length)] + " that the "
